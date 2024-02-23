@@ -1,3 +1,4 @@
+/* Padrão da pagina*/
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +8,9 @@ body {
     background-color:#393939;
 }
 
+/* navbar */
 .navbar {
-    position: absolute;
+    display: flex;
     background-color: #131313;
     width: 100%;
 }
@@ -25,10 +27,33 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Estilo do dropdown */
 .ctt-btn {
     margin-left: 15px;
     background: none;
     border: none;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.ctt{
+    position: absolute;
+    background-color: #131313;
+    padding: 8px;
+    margin-left: 12px;
+}
+
+.ctt ul {
+    list-style: none;
+}
+
+.ctt li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* botões */
+.contacts .ctt {
+    display: none;
 }
